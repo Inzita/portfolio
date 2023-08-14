@@ -233,7 +233,6 @@ textarea {
 }
 
 .message-container {
-    margin-right: 50px;
     display: flex;
     flex-direction: column;
 }
@@ -305,11 +304,16 @@ footer .container{
     .container{
         text-align: center;
     }
-    .text{
-        /* width: 8%; */
-    }
     #form{
         flex-direction: column;
+    }
+    .form-container{
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .message-container{
+        justify-content: center;
+        align-items: center;
     }
 }
 
