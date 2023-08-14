@@ -245,7 +245,6 @@ textarea {
     width: 140px;
     height: 40px;
     margin-top: 40px;
-    margin-left: auto;
     text-transform: uppercase;
     font-weight: 600;
     cursor: pointer;
@@ -315,6 +314,7 @@ footer .container{
         justify-content: center;
         align-items: center;
     }
+        
 }
 
 @media (min-width: 769px) and (max-width: 1020px) {
